@@ -1,0 +1,51 @@
+body {
+    background-color: #EDECE9;
+    color:#775548;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+header{
+    color:black;
+    font-size: large;    
+}
+
+.logo img{
+    width: 100%;
+    height: auto;
+     
+}
+
+nav a {
+    color: #EF6D24;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0 5px;
+}
+h1{
+    
+    font-size: 70px;
+}
+.titulos{
+    background-color:#775548;
+    color:#E1D4CF;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.titulo{
+    background-color:#775548;
+    color:#D8B03B;
+    font-size: 40px;
+    font-weight: bold;
+}
+section {
+    margin-bottom: 30px;
+}
+li a{
+ color: #EF6D24;
+    text-decoration: underline;   
+}
+.negrita{
+    font-weight: bold;
+}

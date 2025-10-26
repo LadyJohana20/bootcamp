@@ -64,7 +64,7 @@ h2 {
 }
 
 .imagenpop img {
-    width: 90%;
+    width: 100%;
     height: auto;
     align-content: left;
 }
@@ -92,7 +92,7 @@ h2 {
 }
 
 .imagencaribbean img {
-    width: 80%;
+    width: 100%;
     height: auto;
     }
 
@@ -108,17 +108,17 @@ h2 {
 }
 
 .textanimal {
-   
+    flex: 2;
     font-size: 11.5px;
     text-align: left;
 }
 
 .imagenanimal {
-
+    flex: 2;
 }
 
 .imagenanimal img {
-    width: 90%;
+    width: 100%;
     height: auto;
     align-content: left;
 }

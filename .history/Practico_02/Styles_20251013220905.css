@@ -9,7 +9,7 @@ body {
 
 header {
     text-align: center;
-    margin-bottom: 5px;
+    margin-bottom: 40px;
  
 }
 
@@ -38,87 +38,46 @@ h2 {
     letter-spacing: 4px;
     margin-bottom: 15px;
 }
-.h2caribbean{
-    letter-spacing: 11px;
+
+
+.hotel {
+    margin-bottom: 50px;
 }
 
-.hotelpop {
-    margin-bottom: 5px;
-}
 
-.contentpop {
+.content {
     display: flex;
     flex-direction: row;
     gap: 10px;
-    align-items: flex-start;
+      align-items: flex-start;
 }
 
-.textpop {
+
+.text {
     flex: 2;
     font-size: 11.5px;
     text-align: left;
 }
 
-.imagenpop {
+
+.imagen {
     flex: 1;
 }
 
-.imagenpop img {
-    width: 90%;
+.imagen img {
+    width: 100%;
     height: auto;
-    align-content: left;
-}
+    border: 1px solid #ccc;
+    align-content: right;
 
-.hotelcaribbean {
-    margin-bottom: 5px;
-   
 }
-
-.contentcaribbean {
-    display:flex;
-    flex-direction:row-reverse;
-    gap: 10px;
-    align-items: flex-start;
-}
-
-.textcaribbean {
-    flex: 2;
-    font-size: 11.5px;
-    text-align: left;
-}
-
 .imagencaribbean {
     flex: 1;
-}
-
-.imagencaribbean img {
-    width: 80%;
+    width: 50%;
     height: auto;
-    }
-
-    .hotelanimal {
-    margin-bottom: 5px;
-}
-
-.contentanimal {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    align-items: flex-start;
-}
-
-.textanimal {
-   
-    font-size: 11.5px;
-    text-align: left;
-}
-
-.imagenanimal {
-
-}
-
-.imagenanimal img {
-    width: 90%;
-    height: auto;
+    border: 1px solid #ccc;
     align-content: left;
+
 }
+
+

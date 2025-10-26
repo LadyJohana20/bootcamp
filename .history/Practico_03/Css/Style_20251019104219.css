@@ -1,0 +1,19 @@
+body {
+    background-color: #EDECE9;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+header{
+    color:#EF6D24;
+    font-size: large;    
+}
+
+.titulos{
+    background-color:#775548;
+    color:#E1D4CF;
+}
+
+.titulo{
+    background-color:#775548;
+    color:#D8B03B;
+}

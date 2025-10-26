@@ -82,17 +82,17 @@ h2 {
 }
 
 .textcaribbean {
-    flex: 2;
+    
     font-size: 11.5px;
     text-align: left;
 }
 
 .imagencaribbean {
-    flex: 1;
+    
 }
 
 .imagencaribbean img {
-    width: 80%;
+    width: 50%;
     height: auto;
     }
 
@@ -108,17 +108,17 @@ h2 {
 }
 
 .textanimal {
-   
+    flex: 2;
     font-size: 11.5px;
     text-align: left;
 }
 
 .imagenanimal {
-
+    flex: 1;
 }
 
 .imagenanimal img {
-    width: 90%;
+    width: 100%;
     height: auto;
     align-content: left;
 }

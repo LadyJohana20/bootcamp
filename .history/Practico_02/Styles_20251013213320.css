@@ -1,0 +1,72 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+    margin: 0;
+    padding: 20px;
+    background-color: #fff;
+    color: #003366;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+ 
+}
+
+.logo {
+    width: 35%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+h1 {
+    font-family: font-family:  'Lucida Sans', 'Lucida Sans Regular' ;
+    color: #b35ba4;
+    font-size: 35px;
+    letter-spacing: 20px;
+    margin-top: -80px;
+}
+
+/* Títulos de secciones */
+h2 {
+    color: #b35ba4;
+    font-size: 22px;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+/* Contenedor de sección del hotel */
+.hotel {
+    margin-bottom: 50px;
+}
+
+/* Contenido texto + imagen */
+.content {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+      align-items: flex-start;
+}
+
+/* Texto */
+.text {
+    flex: 2;
+    font-size: 16px;
+    text-align: left;
+}
+
+/* Imagen */
+.imagen {
+    flex: 1;
+}
+
+.imagen img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    align-content: right;
+
+}
+
+
