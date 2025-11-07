@@ -33,17 +33,3 @@ var numeroDecimal= 99.99;
 
 console.log(numeroEntero, numeroDecimal);
 
-//tipo de dato boolean (booleano, true , false)
-var soltero = true;
-var tieneMascota = false;
-console.log(soltero, tieneMascota);
-
-//declara y asigna variable en una sola linea
-var marcaAuto = "Toyota", modeloAuto = "corolla", anioAuto= 2020;
-
-//declaracion varias variables sin asignar valor
-
-var fruta, color, sabor;
-console.log(fruta);//undefined because dont have valor asignado
-
-
