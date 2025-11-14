@@ -1,0 +1,20 @@
+.titulo{
+    background-color: brown;
+    color: white;
+    text-align: left;
+    font-family: "Sixtyfour", sans-serif;
+    font-size: 40px;
+    border: solid blue;
+    padding: 50px;
+
+}
+
+.sixtyfour-<uniquifier> {
+  font-family: "Sixtyfour", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0;
+}

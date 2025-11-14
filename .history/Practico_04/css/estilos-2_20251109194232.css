@@ -1,0 +1,26 @@
+
+body{
+    background-image:url(/Practico_04/img/background4.jpg);
+}
+.titulo{
+    
+    background-image: url(/Practico_04/img/background.jpg);
+    color: white;
+    text-align: left;
+    font-family: "Sixtyfour", sans-serif;
+    font-size: 80px;
+    font-weight: bolder;
+    padding: 50px;
+   
+    
+}
+
+.sixtyfour-<uniquifier> {
+  font-family: "Sixtyfour", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0;
+}

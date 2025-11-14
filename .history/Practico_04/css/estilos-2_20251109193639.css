@@ -1,0 +1,31 @@
+.titulo{
+    background-color: #a52a2a;
+    color: white;
+    text-align: left;
+    font-family: "Sixtyfour", sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 50px;
+   
+    
+}
+span{
+     animation: movimiento 8s ease;
+}
+@keyframes movimiento{
+    from{
+        transform: translateX(-200%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+.sixtyfour-<uniquifier> {
+  font-family: "Sixtyfour", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0;
+}

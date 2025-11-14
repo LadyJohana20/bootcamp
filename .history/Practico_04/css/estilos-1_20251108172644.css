@@ -1,0 +1,58 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body{
+    background-color: #E11364;
+}
+
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    background-color: #BC105C;
+    border-left: solid white;
+    border-right: solid white;
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 50px;
+    margin-bottom: 70px;
+    padding: 20px;
+
+    
+}
+.marcoExterno{
+    color: white;
+    background-color: #BC105C;
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 50px;
+    margin-bottom: 70px;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    border-radius: 10px;
+}
+
+.letra{
+
+    border-bottom: dotted;
+    text-align: right;
+    color:#9C0037;
+    
+   
+}
+
+.marcoMario{
+    background-color:white;
+    color:black;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 20px;
+    margin-bottom: 70px;
+
+}

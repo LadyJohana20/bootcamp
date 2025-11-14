@@ -1,0 +1,83 @@
+
+body{
+    background-color: #DFE1E1;
+}
+
+.stack-sans-notch-<uniquifier> {
+  font-family: "Stack Sans Notch", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+.sixtyfour-<uniquifier> {
+  font-family: "Sixtyfour", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0;
+}
+.titulo{
+    
+    background-image: url(/Practico_04/img/background.jpg);
+    color: white;
+    text-align: left;
+    font-family: "Sixtyfour", sans-serif;
+    font-size: 80px;
+    font-weight: bolder;
+    padding: 50px;
+    border-radius: 10px;
+   
+    
+}
+
+
+.marcoExterno{
+    background-color:antiquewhite;
+    
+}
+h2{
+    font-family: "Stack Sans Notch", sans-serif;
+   text-align: center;
+   font-size: 30px;
+
+}
+@font-face {
+    font-family: SuperMarioBros-ov7d;
+    src: url(/Practico_04/asset/SuperMarioBros-ov7d.ttf);
+}
+.letra{
+    font-family: SuperMarioBros-ov7d;
+    font-size: 50px;
+}
+
+
+.marcoInterno{
+    display: flex;
+
+    border: solid black;
+}
+.contenedor{
+    width: 350px;
+    margin-right: 50px;
+    border: solid black;
+}
+
+.contenedor img{
+    margin-left: -650px;
+    margin-top: 150px;
+    border: solid black;
+}
+.parrafo{
+    border:solid  black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 40px;
+    width: 40%;
+    padding-top: -500px;
+    align-self: self-end;
+    
+}

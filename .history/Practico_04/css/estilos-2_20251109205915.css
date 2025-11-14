@@ -1,0 +1,120 @@
+
+body{
+    background-color: #DFE1E1;
+    margin: 50px;
+}
+
+.stack-sans-notch-<uniquifier> {
+  font-family: "Stack Sans Notch", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+.sixtyfour-<uniquifier> {
+  font-family: "Sixtyfour", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0;
+}
+.titulo{
+    
+    background-image: url(/Practico_04/img/background.jpg);
+    color: white;
+    text-align: left;
+    font-family: "Sixtyfour", sans-serif;
+    font-size: 80px;
+    font-weight: bolder;
+    padding: 50px;
+    border-radius: 10px;
+   
+    
+}
+
+
+.marcoExterno{
+    background-color:antiquewhite;
+    margin: 10px;
+    border: solid black;
+
+    
+}
+h2{
+    font-family: "Stack Sans Notch", sans-serif;
+   text-align: center;
+   font-size: 30px;
+
+}
+@font-face {
+    font-family: SuperMarioBros-ov7d;
+    src: url(/Practico_04/asset/SuperMarioBros-ov7d.ttf);
+}
+.letra{
+    font-family: SuperMarioBros-ov7d;
+    font-size: 50px;
+    margin-left: 10px;
+}
+
+
+.marcoInterno{
+  
+}
+.contenedor{
+    display: block;
+    width:350px ;
+    margin-right: 50px;
+   
+} 
+
+.contenedor img{
+    width: 100%;
+    margin-left: 100%;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    padding: 20px;
+    
+    border-radius: 20px;
+   
+    
+    
+}
+.parrafo{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 40px;
+    width: 70%;
+    margin-top: 10px;
+    margin-left: 200px;
+    
+}
+
+.BtnComprar {
+  
+  display: inline-block;        
+  background-image: url(/Practico_04/img/background.jpg);  
+  font-family: "Sixtyfour", sans-serif;
+  color: white;                 
+  font-weight: bold;            
+  padding: 10px 20px;           
+  border: none;                 
+  border-radius: 5px;           
+  text-decoration: none;        
+  cursor: pointer;              
+    
+}
+
+.acomodarBoton{
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.BtnComprar:hover {
+   
+  text-decoration: none;
+}

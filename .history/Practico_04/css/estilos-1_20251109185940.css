@@ -1,0 +1,215 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body{
+    background-color: #E11364;
+}
+
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    background-color: #BC105C;
+    border-left: solid white;
+    border-right: solid white;
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 50px;
+    margin-bottom: 70px;
+    padding: 20px;
+
+    
+}
+.marcoExterno{
+    color: white;
+    background-color: #BC105C;
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    border-radius: 10px;
+}
+
+.letra{
+
+    border-bottom: dotted;
+    text-align: right;
+    color:#9C0037;
+    padding-top: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+   
+}
+
+.marcoInterno{
+    background-color:white;
+    color:black;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
+.contenedor{
+
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 0px;
+    
+}
+
+.contenedor img{
+    width: 100%;
+  height: 100%;
+}
+
+.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.parrafo{
+    margin-top: 0px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+.parrafo2{
+    margin-top: 0px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+.BtnComprar {
+  
+  display: inline-block;        
+  background-color: #28a745;    
+  color: white;                 
+  font-weight: bold;            
+  padding: 10px 20px;           
+  border: none;                 
+  border-radius: 5px;           
+  text-decoration: none;        
+  cursor: pointer;              
+    
+}
+
+.acomodarBoton{
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.BtnComprar:hover {
+  text-decoration: none;
+}
+
+.PiePag{
+    background-color:#E96093;
+    color:white;
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.content {
+  display: flex;              /* Coloca las tarjetas en fila */
+  justify-content: center;    /* Centra horizontalmente */
+  gap: 20px;                  /* Espacio entre tarjetas */
+  margin-top: 30px;
+}
+
+.tarjeta {
+  width: 300px;
+  text-align: center;         /* Centra el texto debajo */
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  overflow: hidden;
+}
+
+.tarjeta img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;          /* Ajusta la imagen al tamaño sin deformarla */
+}
+
+.tarjeta p {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.slider-wrapper{
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.slider .nota{
+    display: flex;
+    aspect-ratio: 16 / 9;
+    overflow-x:hidden ;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+.slider img{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+
+.slidernav{
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.slidernav a{
+    width: .5rem;
+    height: .5rem;
+    border-radius:50%;
+background-color:#fff;
+opacity: .75;
+transition: opacity ease 250ms;
+}
+
+.slidernav a:hover{
+    opacity: 100%;
+}
+
+.nota{
+    padding: 10px;
+    width: 100%;
+}
+
+
