@@ -44,38 +44,4 @@ var marcaAuto = "Toyota", modeloAuto = "corolla", anioAuto= 2020;
 var fruta, color, sabor;
 console.log(fruta);//undefined because dont have valor asignado
 
-//crear variable con la siguiente sintaxis
-var localidad; //minuscula
-var CUENTA_BANCARIA; //snake case mayus y guion bajo 
-var PaisDeOrigen; //camel case
-var $Estado; //con signo de dolar
-var _CodigoPostal; //con guion bajo
-
-// var 1ernombre; //incorrecto, no puede comenzar con numero
-// var nombre completo; // incorrecto no puede tener espacios
-// var var; //incorrecto, no puede tener palabra reservada
-// var if;//incorrecto, no puede tener palabra reservada
-
-//Constantes: son variables cuyo valor no puede cambiar
-
-const IVA = 0.21; //declaracion y asignacion constante
-const Brasil = "Pais limitrofe con Argentina";
-
-//unir variables con texto par aimprimir con consola
-console.log("El Valor del IVA es:"+ IVA);//concatenar texto
-console.log("Un país limitrofe con Argentina es:"+ Brasil);
-
-//sumas
-
-let numeroUno= 10;
-let numeroDos= 20;
-let suma;
-
-suma= numeroUno + numeroDos; //operador matematico de suma 
-
-console.log("La suma de " + numeroUno + " + " + numeroDos + " es igual a:" + suma);
-
-console.log("Un texto plano que quiero mostrar " + Brasil);
-
-final int DNI= 1234666
 

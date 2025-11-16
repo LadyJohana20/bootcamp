@@ -76,6 +76,3 @@ suma= numeroUno + numeroDos; //operador matematico de suma
 console.log("La suma de " + numeroUno + " + " + numeroDos + " es igual a:" + suma);
 
 console.log("Un texto plano que quiero mostrar " + Brasil);
-
-final int DNI= 1234666
-

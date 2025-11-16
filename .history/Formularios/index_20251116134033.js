@@ -62,20 +62,6 @@ const IVA = 0.21; //declaracion y asignacion constante
 const Brasil = "Pais limitrofe con Argentina";
 
 //unir variables con texto par aimprimir con consola
-console.log("El Valor del IVA es:"+ IVA);//concatenar texto
+console.log("El Valor del IVA es:"+ IVA);
 console.log("Un país limitrofe con Argentina es:"+ Brasil);
-
-//sumas
-
-let numeroUno= 10;
-let numeroDos= 20;
-let suma;
-
-suma= numeroUno + numeroDos; //operador matematico de suma 
-
-console.log("La suma de " + numeroUno + " + " + numeroDos + " es igual a:" + suma);
-
-console.log("Un texto plano que quiero mostrar " + Brasil);
-
-final int DNI= 1234666
 
