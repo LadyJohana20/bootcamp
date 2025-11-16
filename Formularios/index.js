@@ -3,10 +3,8 @@
 var nombre; //declaracion variable
 
 nombre="Juan"; //asignacion de valor
-
-nombre="Pedro"; //reasignacion de valor
-
 nombre=123; //reasignacion de valor con diferente tipo de dato
+nombre="Pedro"; //reasignacion de valor
 
 var edad = 30; //declaracion y asignacion en una sola linea
 
