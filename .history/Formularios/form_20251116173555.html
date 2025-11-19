@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <script src="index.js"></script>
+</head>
+
+<body>
+
+    <nav style="display:flex;gap:16px;align-items:center;background:#1f2937;padding:12px 16px;">
+        <a href="./form.html" style="color:#ffffff;text-decoration:underline;font-weight:600;">Formulario</a>
+        <a href="./home.html" style="color:#ffffff;text-decoration:none;opacity:0.9;font-weight:600;">Home</a>
+    </nav>
+
+    <h1 style="text-align: center; margin-top: 50px;">
+        Formularios en HTML
+    </h1>
+
+    <form method="get" id="formulario" action="index.js">
+
+    </form>
+
+    <form action="index" method="post" enctype="multipart/form-data" id="formulario2" autocomplete="on" style="float: left">
+
+        <fieldset style="width: 600px;">
+            <legend>Datos Personales</legend>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" placeholder="Pepe Perez" required>
+        <br>
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" min="1" max="100" placeholder="21" required>
+        <br>
+        <label for="Email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="pepe@example.com" pattern="[a-zA-Z0-9.%+-]+@[a-zA-z0-9.-]+\.[a-zA-Z]{2,}" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" minlength="6" maxlength="15" required>
+        <br>
+        <label for="comentario">Comentario:</label>
+        <textarea name="comentario" id="comentario" cols="36" rows="10"> </textarea>
+        <br>
+        <label for="provincia"></label>
+        <select name="provincia" id="provincia">
+             <option value="" selected>Selecciona una provincia</option>
+                <option value="sevilla">Sevilla</option>
+                <option value="cadiz">Cádiz</option>
+                <option value="malaga">Málaga</option>
+                <option value="huelva">Huelva</option>
+                <option value="cordoba">Córdoba</option>
+                <option value="jaen">Jaén</option>
+                <option value="granada">Granada</option>
+                <option value="almeria">Almería</option>
+        </select>
+        <br>
+         <label for="genero">Género: </label>
+
+            <input type="radio" id="hombre" name="genero" value="hombre" checked>
+            <label for="hombre">Hombre</label>
+            <input type="radio" id="mujer" name="genero" value="mujer">
+            <label for="mujer">Mujer</label>
+
+            <br>
+
+            <label for="hobbies">Hobbies: </label>
+            <br>
+
+            <input type="checkbox" id="deporte" name="hobbies" value="futbol">
+            <label for="deporte">Fútbol</label>
+            <input type="checkbox" id="musica" name="hobbies" value="musica">
+            <label for="musica">Música</label>
+            <input type="checkbox" id="lectura" name="hobbies" value="lectura">
+            <label for="lectura">Lectura</label>
+
+            <br>
+
+            <label for="porcentaje">Porcentaje: </label>
+            <input type="range" id="porcentaje" name="porcentaje" min="0" max="100" step="1" value="50">
+
+            <br>
+
+            <label for="archivo">Subir archivo: </label>
+            <input type="file" id="archivo" name="archivo" accept=".jpg, .png, .pdf" multiple>
+
+            <br>
+        <button type="submit"> Enviar datos
+            <a href=""></a>
+        </button>
+        <br>
+        <button type="reset">Borrar Datos</button>
+        <br>
+        <button type="button" style="width: 150px; height: 40px;"><a href="./home.html">Inicio</a></button>
+        <br>
+        <input type="submit" value="Soy un boton tipo input">
+        <br>
+        <input type="reset" value="Borrar datos tipo input">
+        </fieldset>
+        
+    </form>
+    <hr>
+    <br>
+    <!-- abrir una ventana y agregar otro elemento  /mapa / pagina / video -->
+
+    <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1623.192684353896!2d-58.383584455205764!3d-34.60142856575992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccba1ad514cad%3A0xbfb996d0be0de608!2sBlue%20%7C%20Pasaje%20de%20los%20Carruajes!5e0!3m2!1ses-419!2sar!4v1762988912930!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+
+    <br>
+
+
+
+
+    <hr>
+
+    <!-- <style>
+        .margen {
+            margin-top: 50px;
+        }
+    </style> -->
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OEkuP_r-vxM?si=b_vzxNRLAuusimZl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+    <iframe src="./footer.html" width="800" height="200" frameborder="0"></iframe>
+</body>
+</html>
