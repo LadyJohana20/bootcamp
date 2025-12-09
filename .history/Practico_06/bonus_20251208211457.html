@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6 Bonus</title>
+    <style>
+      .formularios-container {
+        display: flex;
+        gap: 20px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+      }
+      
+      .formulario-integrante {
+        flex: 1;
+        min-width: 300px;
+        border: 1px solid #ddd;
+        padding: 15px;
+        border-radius: 8px;
+      }
+      
+      .formulario-integrante h2 {
+        margin-top: 0;
+        color: #333;
+      }
+      
+      .formulario-integrante form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      
+      .formulario-integrante input {
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      
+      .formulario-integrante button {
+        padding: 8px 12px;
+        margin-top: 10px;
+        cursor: pointer;
+        border: none;
+        border-radius: 4px;
+      }
+      
+      .btn-success {
+        background-color: #28a745;
+        color: white;
+      }
+      
+      .btn-success:hover {
+        background-color: #218838;
+      }
+      
+      .btn-danger {
+        background-color: #dc3545;
+        color: white;
+      }
+      
+      .btn-danger:hover {
+        background-color: #c82333;
+      }
+    </style>
+</head>
+<body>
+    <!-- el contenido lo completamos con JS -->
+  <h1 class="mt-5" id="titulo">
+    
+  </h1>
+
+  <!-- Contenedor para los dos formularios lado a lado -->
+  <div class="formularios-container">
+    <div class="formulario-integrante">
+      <h2>Integrante 1</h2>
+      <!-- captura de datos del formulario -->
+      <form action="">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Primer Nombre" required>
+
+        <label for="nombre1">Segundo Nombre:</label>
+        <input type="text" id="nombre1" name="nombre1" placeholder="Segundo Nombre">
+
+        <label for="apellido">Apellido:</label>
+        <input type="apellido" id="apellido" name="apellido" placeholder="Primer Apellido">
+
+        <label for="apellido1">Segundo Apellido:</label>
+        <input type="apellido1" id="apellido1" name="apellido1" placeholder="Segundo Apellido">
+
+        <button 
+            type="button" 
+            class="btn btn-success"
+            onclick="capturaDatos()">
+                Agregar Integrante 1
+        </button>
+
+        <button type="reset" class="btn btn-danger">Borrar</button>
+      </form>
+    </div>
+
+    <div class="formulario-integrante">
+      <h2>Integrante 2</h2>
+      <!-- captura de datos del formulario -->
+      <form action="">
+        <label for="nombre2">Nombre:</label>
+        <input type="text" id="nombre2" name="nombre2" placeholder="Primer Nombre" required>
+
+        <label for="nombre3">Segundo Nombre:</label>
+        <input type="text" id="nombre3" name="nombre3" placeholder="Segundo Nombre">
+
+        <label for="apellido2">Apellido:</label>
+        <input type="apellido2" id="apellido2" name="apellido2" placeholder="Primer Apellido">
+
+        <label for="apellido3">Segundo Apellido:</label>
+        <input type="apellido3" id="apellido3" name="apellido3" placeholder="Segundo Apellido">
+
+        <button 
+            type="button" 
+            class="btn btn-success"
+            onclick="capturaDatos1()">
+                Agregar Integrante 2
+        </button>
+
+        <button type="reset" class="btn btn-danger">Borrar</button>
+      </form>
+    </div>
+  </div>
+
+  <div id="contenedorResultado"></div>
+
+  <div style="margin-top: 30px; text-align: center;">
+    <a href="./index.html" style="display: inline-block; padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">Volver a Inicio</a>
+  </div>
+
+  <!-- link a nuestro js -->
+  <script src="./js/main_bonus.js"></script>
+</body>
+</html>

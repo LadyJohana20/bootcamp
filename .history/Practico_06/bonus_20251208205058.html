@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6 Bonus</title>
+</head>
+<body>
+    <!-- el contenido lo completamos con JS -->
+  <h1 class="mt-5" id="titulo">
+    
+  </h1>
+<div> <h2>Integrante 1</h2></div>
+  <!-- captura de datos del formulario -->
+  <form action="" class="mt-4 mb-4 container">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" placeholder="Primer Nombre" required>
+    <br>
+
+     <label for="nombre1">Segundo Nombre:</label>
+    <input type="text" id="nombre1" name="nombre1" placeholder="Segundo Nombre">
+    <br>
+
+    <label for="apellido">Apellido:</label>
+    <input type="apellido" id="apellido" name="apellido" placeholder="Primer Apellido">
+    <br>
+    <label for="apellido1">Segundo Apellido:</label>
+    <input type="apellido1" id="apellido1" name="apellido1" placeholder="Segundo Apellido">
+    <br>
+
+    <button 
+        type="button" 
+        class="btn btn-success"
+        onclick="capturaDatos()">
+            Agregar Integrante 1
+    </button>
+
+
+    <br>
+    <button type="reset" class="btn btn-danger">Borrar</button>
+  </form>
+
+  <div> <h2>Integrante 2</h2></div>
+  <!-- captura de datos del formulario -->
+  <form action="" class="mt-4 mb-4 container">
+    <label for="nombre2">Nombre:</label>
+    <input type="text" id="nombre2" name="nombre2" placeholder="Primer Nombre" required>
+    <br>
+
+     <label for="nombre3">Segundo Nombre:</label>
+    <input type="text" id="nombre3" name="nombre3" placeholder="Segundo Nombre">
+    <br>
+
+    <label for="apellido2">Apellido:</label>
+    <input type="apellido2" id="apellido2" name="apellido2" placeholder="Primer Apellido">
+    <br>
+    <label for="apellido3">Segundo Apellido:</label>
+    <input type="apellido3" id="apellido3" name="apellido3" placeholder="Segundo Apellido">
+    <br>
+
+    <button 
+        type="button" 
+        class="btn btn-success"
+        onclick="capturaDatos1()">
+            Agregar Integrante 2
+    </button>
+
+
+    <br>
+    <button type="reset" class="btn btn-danger">Borrar</button>
+  </form>
+
+  <div id="contenedorResultado"></div>
+  <!-- link a nuestro js -->
+  <script src="./js/main_bonus.js"></script>
+</body>
+</html>

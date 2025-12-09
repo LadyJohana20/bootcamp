@@ -1,0 +1,22 @@
+.integrante:first-letter {
+    background: gray;
+    padding: 20px;
+    width: 320px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    text-transform: uppercase;
+}
+
+.integrante dt {
+    margin-top: 12px;
+    font-weight: bold;
+    color: white;
+}
+
+.integrante dd {
+    margin-left: 20px;
+    padding: 5px 0;
+    font-size: 1.1em;
+    color: white;
+}

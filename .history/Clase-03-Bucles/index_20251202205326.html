@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productos - Zapatillas</title>
+
+  <!-- Bootstrap CSS - Primer forma de uso -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <!-- Nuestro propio estilo de css -->
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+  <!-- uso de bootstrap -->
+  <div class="container bg-primary"> <!-- contenedor con el 80% de ancho y fondo azul-->
+    <h1 class="text-center text-danger"> <!-- texto centrado y color rojo -->
+      Productos - Bebidas
+    </h1>
+  </div>
+  <!-- el contenido lo completamos con JS -->
+  <h1 class="mt-5" id="titulo">
+    
+  </h1>
+
+  <!-- captura de datos del formulario -->
+  <form action="" class="mt-4 mb-4 container">
+    <label for="producto">Producto:</label>
+    <input type="text" id="nombreProducto" name="nombreProducto" placeholder="Gaseosas" required>
+    <br>
+
+    <label for="precio">Precio:</label>
+    <input type="number" id="precioProducto" name="precioProducto">
+    <br>
+
+    <button 
+        type="button" 
+        class="btn btn-success"
+        onclick="capturaDatos()">
+            Agregar producto
+    </button>
+
+
+    <br>
+    <button type="reset" class="btn btn-danger">Borrar</button>
+  </form>
+
+  <div class="productos container">
+    <div>
+      <img src="https://c92abd90.delivery.rocketcdn.me/main-files/uploads/2023/04/estrategia-de-producto-ejemplo-Cocacola-1024x554.png" alt="" srcset="">
+    </div>
+    <div>
+      <img src="https://c92abd90.delivery.rocketcdn.me/main-files/uploads/2023/04/estrategia-de-producto-ejemplo-Cocacola-1024x554.png" alt="" srcset="">
+    </div>
+    <div>
+      <img src="https://c92abd90.delivery.rocketcdn.me/main-files/uploads/2023/04/estrategia-de-producto-ejemplo-Cocacola-1024x554.png" alt="" srcset="">
+    </div>
+    <div>
+      <img src="https://c92abd90.delivery.rocketcdn.me/main-files/uploads/2023/04/estrategia-de-producto-ejemplo-Cocacola-1024x554.png" alt="" srcset="">
+    </div>
+    <div>
+      <img src="https://c92abd90.delivery.rocketcdn.me/main-files/uploads/2023/04/estrategia-de-producto-ejemplo-Cocacola-1024x554.png" alt="" srcset="">
+    </div>
+    <div>
+      <img src="https://c92abd90.delivery.rocketcdn.me/main-files/uploads/2023/04/estrategia-de-producto-ejemplo-Cocacola-1024x554.png" alt="" srcset="">
+    </div>
+  </div>
+
+
+
+
+
+
+  
+
+  <!-- link a nuestro js -->
+  <script src="./index.js"></script>
+
+
+  <!-- Bootstrap JS -->
+</body>
+</html>

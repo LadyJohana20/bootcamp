@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6 Bonus</title>
+</head>
+<body>
+    <!-- el contenido lo completamos con JS -->
+  <h1 class="mt-5" id="titulo">
+    
+  </h1>
+
+  <!-- captura de datos del formulario -->
+  <form action="" class="mt-4 mb-4 container">
+    <label for="producto">Producto:</label>
+    <input type="text" id="nombreProducto" name="nombreProducto" placeholder="Gaseosas" required>
+    <br>
+
+    <label for="precio">Precio:</label>
+    <input type="number" id="precioProducto" name="precioProducto">
+    <br>
+
+    <button 
+        type="button" 
+        class="btn btn-success"
+        onclick="capturaDatos()">
+            Agregar producto
+    </button>
+
+
+    <br>
+    <button type="reset" class="btn btn-danger">Borrar</button>
+  </form>
+
+  <!-- link a nuestro js -->
+  <script src="./js/main_bonus.js"></script>
+</body>
+</html>

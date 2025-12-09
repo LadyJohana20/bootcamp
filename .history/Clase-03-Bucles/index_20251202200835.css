@@ -1,0 +1,16 @@
+.productos{
+    display: flex;/* ordena de forma flexible a sus elementos hijos */
+    flex-direction: column; /* los ordena en columna */
+    flex-direction: row; /* los ordena en fila */
+    flex-wrap: nowrap; /* no permite que los elementos hijos hagan un salto de linea */
+    flex-wrap: wrap; /* permite que los elementos hijos hagan un salto de linea */
+
+
+}
+
+img{
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px;
+}
