@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../scss/main.css">
+    <title>Contact |Carpas El Fuerte</title>
+</head>
+<body>
+    <header id="mainheader">
+        <nav id="navbar">
+            <div class="container">
+                <div class="logo">
+                    <img src="../imagenes/logo.png" alt="Logo Carpas El Fuerte">
+                </div>
+                <ul class="nav-links">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./nosotros.html">Nosotros</a></li>
+                    <li><a href="./alta.html">Productos</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+    </header>
+    <section id="contact">
+        <div class="container">
+            <h2>Contacto</h2>
+                <p class="large">Comunicate con nosotros para más información sobre nuestros productos y servicios.
+                </p>
+                <form id="contactForm" action="#" novalidate>
+                    <div class="form-group">
+                        <label for="name">Nombre:</label>
+                        <input id="name" name="name" type="text" class="form-group-control" required>
+                        <div class="error" aria-live="polite"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail:</label>
+                        <input id="email" name="email" type="email" class="form-group-control" required pattern="^[^\s@]+@(gmail|hotmail)\.com$" title="Solo correos de gmail.com o hotmail.com">
+                        <div class="error" aria-live="polite"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje:</label>
+                        <textarea id="message" name="message" cols="30" rows="10" class="form-group-control" required></textarea>
+                        <div class="error" aria-live="polite"></div>
+                    </div>
+                    <button type="submit" class="btn btn-dark">Enviar Mensaje</button>
+                    <div id="formMessage" role="status" aria-live="polite" style="margin-top:10px;"></div>
+                </form>
+                
+                
+                <section class="contact-promise">
+                    <h2>Nuestra Promesa</h2>
+                    <p>En Carpas El Fuerte nos comprometemos a responder todas las consultas en un plazo máximo de 24 horas hábiles.
+                    </p>
+                </section>
+
+                     
+                <section class="contact-faq">
+                <h2>Preguntas frecuentes</h2>
+
+                <p><strong>¿Realizan trabajos a medida?</strong><br>
+                Sí, fabricamos carpas y parasoles personalizados.</p>
+
+                <p><strong>¿Hacen envíos?</strong><br>
+                Sí, realizamos envíos a todo el país.</p>
+                </section>
+                
+            </div>
+        </div>
+    </section>
+
+
+    
+    <div class="container">
+    <footer id="mainfooter">
+        <p>&copy; 2025 Carpas El Fuerte. Todos los derechos reservados.</p>
+        <p>&copy; Elaborado por Lady Johana Caicedo Cardozo. </p>
+
+    </footer>
+    </div>
+    <script src="../js/contact.js"></script>
+</body>
+</html>

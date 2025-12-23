@@ -1,0 +1,37 @@
+form { 
+    width: 50%;
+    margin: 0 auto;
+    label { 
+        display: inline-block; 
+        margin-bottom: 6px; 
+        }
+        .form-group { 
+            margin-bottom: 16px;
+            &-control {
+                width: 100%;
+                padding: 7px 12px;
+                font-size: 1rem;
+                line-height: 1.5rem;
+                background: $color-gray;
+                border: none;
+                border-radius: 4px;
+                }//end form-group-control
+                
+            }//end form .form-group
+            button {
+                    width: 100%;
+                }
+        }//end form
+
+        #contact {
+            padding: 100px 0;
+            h2 {
+                text-align: center;
+                padding-bottom: 10px;
+                
+            }
+            p.large{
+            text-align: center;
+            padding-bottom: 50px;
+            }
+            }

@@ -1,0 +1,19 @@
+#mainfooter {
+    background-color: $dark-blue;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+
+    p {
+        margin: 5px 0;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

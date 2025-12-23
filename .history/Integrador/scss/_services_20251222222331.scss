@@ -1,0 +1,28 @@
+#services {
+    padding: 100px 0;
+    background: $color-gray;
+    h2 {
+        text-align: center;
+        padding-bottom: 10px;
+        
+    }
+    p.large {
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .service-flex {
+        display: flex;
+        gap: 10px;
+        img {
+            
+            height: 10px;
+        }
+        &-box {
+            background: #fff;
+            padding: 50px 20px;
+            text-align: center;
+            border-radius:20px;
+            }
+        }
+    }
+}

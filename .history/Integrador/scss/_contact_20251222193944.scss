@@ -1,0 +1,13 @@
+form { 
+    label { 
+        display: inline-block; 
+        margin-bottom: 6px; 
+        }
+        .form-group { 
+            margin-bottom: 16px;
+            &-control {
+                width: 100%;
+                padding: 7px 12px;
+                }//end form-group-control
+            }//end form .form-group
+        }//end form

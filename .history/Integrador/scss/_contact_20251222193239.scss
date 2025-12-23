@@ -1,0 +1,12 @@
+form { 
+    label { 
+        display: inline-block; 
+        margin-bottom: 6px; 
+        }
+        .form-group { 
+            margin-bottom: 16px;
+            &-control {
+                
+                }//end form-group-control
+            }//end form .form-group
+        }//end form

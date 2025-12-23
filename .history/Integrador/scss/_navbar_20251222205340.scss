@@ -1,0 +1,41 @@
+#navbar {
+    height: 30vh;
+    background:#F8F9F9;
+    color: #fff;
+    overflow: hidden;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    a {
+        color: #2D3095;
+    }
+    .logo {
+        
+        height: 10%;
+        width: auto;
+        float: left;
+        padding-top: 5px;
+        text-align: center;
+    
+    .logo img{
+        height: 10%;
+        width: auto;
+        float: left;
+        padding-top: 5px;
+        text-align: center;
+        
+    }}
+    ul{
+        list-style: none;
+        float: right;
+        li{
+            float: left;
+        }
+        li a{
+            display: block;
+            padding: 20px;
+            text-align: center;
+
+        }
+    }
+}//end navbar
+

@@ -1,0 +1,81 @@
+#navbar {
+    /* usar flex layout correcto */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 80px;
+    background:#F8F9F9;
+    overflow: hidden;
+    padding: 10px 20px;
+
+    a {
+        color: #2D3095;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        flex: 0 0 auto;
+        img{
+            max-height: 60px;
+            width: auto;
+            display: block;
+        }
+    }
+
+    ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        li{
+            display: block;
+        }
+        li a{
+            display: block;
+            padding: 10px 12px;
+            text-align: center;
+        }
+    }
+}//end navbar
+
+//showcase
+#showcase {
+    min-height: 60vh;
+    padding: 80px 0;
+    background: url('../imagenes/g4c.jpg') no-repeat center/cover;
+    h1 {
+        width: 100%;
+        font-size: clamp(2rem, 6vw, 4rem);
+    }
+    p {
+        width: 100%;
+        max-width: 700px;
+        padding: 15px 0;
+    }
+}
+
+/* reglas responsivas generales */
+@media (max-width: 680px) {
+    #navbar {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 10px;
+    }
+    #navbar ul{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 6px;
+        margin-top: 8px;
+    }
+    #navbar .logo img{ max-height: 48px; }
+
+    #showcase {
+        padding: 40px 0;
+    }
+    #showcase h1 { font-size: 2rem; }
+    #showcase p { padding: 10px 0; }
+}
+

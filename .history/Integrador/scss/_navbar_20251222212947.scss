@@ -1,0 +1,39 @@
+#navbar {
+    display: flexbox;
+    height: 30vh;
+    background:#F8F9F9;
+    color: #fff;
+    overflow:hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    a {
+        color: #2D3095;
+        float: right;
+    }
+    .logo {
+    float: left;
+    align-items: left;
+            
+        }
+        .logo img{
+            height: 30vh;
+    width: auto;
+        
+    }
+    ul{
+        list-style: none;
+        float: right;
+        text-align: center;
+        li{
+            float: left;
+        }
+        li a{
+            display: block;
+            padding: 20px;
+            text-align: center;
+
+        }
+    }
+}//end navbar
+

@@ -1,0 +1,25 @@
+#about {
+    padding: 100px 0;
+    h2 {
+        text-align: center;
+        padding-bottom: 50px;
+        
+    }
+    img {
+        
+        width: 100%;    
+    }
+    .about-flex {
+        display: flex;
+        &-image {
+            flex: 1;
+            
+        }
+        &-description {
+            flex: 1;
+            padding: 20px 40px;
+            
+        }
+    }
+
+}

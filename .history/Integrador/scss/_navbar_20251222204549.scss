@@ -1,0 +1,50 @@
+#navbar {
+    height: 30vh;
+    background: #F8F9F9;
+    color: #fff;
+    /* quitar scroll vertical */
+    overflow-y: hidden;
+    padding: 5px 20px;
+
+    /* usar flexbox para centrar verticalmente y separar logo de menú */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    a {
+        color: #2D3095;
+    }
+
+    .logo {
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+    }
+
+    .logo img{
+        height: auto;
+        max-height: 80%;
+        display: block;
+        /* quitar float */
+        float: none;
+        padding-top: 0;
+        margin-right: 10px;
+    }
+
+    ul{
+        list-style: none;
+        display: flex;
+        gap: 10px;
+        margin: 0;
+        padding: 0;
+        li{
+            float: none;
+        }
+        li a{
+            display: block;
+            padding: 20px;
+            text-align: center;
+        }
+    }
+}//end navbar
+

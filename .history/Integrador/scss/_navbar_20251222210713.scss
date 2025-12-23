@@ -1,0 +1,38 @@
+#navbar {
+    display: flex;
+    height: 30vh;
+    background:#F8F9F9;
+    color: #fff;
+    overflow: hidden;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    justify-content: space-between;
+    a {
+        color: #2D3095;
+    }
+    .logo {
+        display: flex;
+  
+        
+    }
+    .logo img{
+        height: 20vh;
+  width: auto;
+  float: left;
+        
+    }
+    ul{
+        list-style: none;
+        float: right;
+        li{
+            float: left;
+        }
+        li a{
+            display: block;
+            padding: 20px;
+            text-align: center;
+
+        }
+    }
+}//end navbar
+
