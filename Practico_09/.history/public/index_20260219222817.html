@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', sans-serif; background: #f0f4f8; color: #2d3748; }
+    nav { background: #234804; padding: 1rem 2rem; display: flex; gap: 1.5rem; }
+    nav a { color: #fff; text-decoration: none; font-weight: 600; }
+    nav a:hover { text-decoration: underline; }
+    main { max-width: 720px; margin: 4rem auto; padding: 0 1rem; }
+    h1 { font-size: 2.5rem; color: #234804; margin-bottom: 1rem; }
+    p  { font-size: 1.1rem; line-height: 1.7; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/index">Inicio</a>
+    <a href="/about">Acerca de</a>
+    <a href="/contact">Contacto</a>
+  </nav>
+  <main>
+    <h1>¡Bienvenido!</h1>
+    <p>Este es un servidor web utilizando Express que sirve un sitio estático con tres páginas: <strong>"index.html"</strong>, <strong>"about.html"</strong> y <strong>"contact.html"</strong>. Este servidor  escucha el puerto 3000 y muestra las páginas correspondientes a las rutas "/index", "/about" y "/contact" respectivamente. Además,  maneja adecuadamente los errores <strong>404</strong> y <strong>500</strong>.</p>
+  </main>
+</body>
+</html>

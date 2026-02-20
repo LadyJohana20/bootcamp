@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acerca de</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', sans-serif; background: #f0f4f8; color: #2d3748; }
+    nav { background: #234804; padding: 1rem 2rem; display: flex; gap: 1.5rem; }
+    nav a { color: #fff; text-decoration: none; font-weight: 600; }
+    nav a:hover { text-decoration: underline; }
+    main { max-width: 720px; margin: 4rem auto; padding: 0 1rem; }
+    h1 { font-size: 2.5rem; color: #234804; margin-bottom: 1rem; }
+    p  { font-size: 1.1rem; line-height: 1.7; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/index">Inicio</a>
+    <a href="/about">Acerca de</a>
+    <a href="/contact">Contacto</a>
+  </nav>
+  <main>
+    <h1>Acerca de</h1>
+    
+    <p><strong>Lógica de negocio:</strong> 
+      <p>El servidor web  responde a las solicitudes HTTP de los clientes y envia la página HTML correspondiente según la ruta solicitada. Si se solicita una ruta no válida, se  muestra un mensaje de error 404. Además, si se produce un error interno en el servidor, muestra un mensaje de error 500.</p>
+      
+      <ul><p><strong>Datos de entrada:</strong></p>
+
+  <li>Solicitudes HTTP entrantes de los clientes.</li>
+  <li>Rutas válidas: "/index", "/about" y "/contact".</li>
+</ul>
+
+Datos de salida:
+
+* Páginas HTML correspondientes a las rutas solicitadas.
+* Mensajes de error 404 y 500.
+
+Requerimientos funcionales:
+
+* El servidor debe escuchar en el puerto 3000.
+* El servidor debe manejar adecuadamente las rutas "/index", "/about" y "/contact".
+* El servidor debe manejar adecuadamente los errores 404 y 500.
+
+Requerimientos no funcionales:
+
+* El servidor debe ser rápido y eficiente en la respuesta a las solicitudes HTTP entrantes.
+* El servidor debe ser capaz de manejar múltiples solicitudes simultáneamente.</p>
+  </main>
+</body>
+</html>

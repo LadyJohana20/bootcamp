@@ -1,0 +1,40 @@
+{
+  "name": "Practico_09",
+  "version": "1.0.0",
+  "description": "Servidor Express con páginas estáticas y manejo de errores 404/500",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.22.1"
+  }
+}
+
+
+
+
+{
+  "name": "clase-05-nodesass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "sass": "sass public/sass:public/css",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1",
+    "sass": "^1.97.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}

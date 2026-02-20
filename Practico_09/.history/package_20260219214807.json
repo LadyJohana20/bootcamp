@@ -1,0 +1,21 @@
+{
+  "name": "Practico",
+  "version": "1.0.0",
+  "description": "Servidor Express con páginas estáticas y manejo de errores 404/500",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [],
+  "author": "Lady Johana Caicedo",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^4.22.1"
+  }
+}
+
+
+
+

@@ -1,0 +1,12 @@
+{
+  "name": "express-static-server",
+  "version": "1.0.0",
+  "description": "Servidor Express con páginas estáticas y manejo de errores 404/500",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.22.1"
+  }
+}
