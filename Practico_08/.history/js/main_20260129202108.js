@@ -1,0 +1,71 @@
+document.addEventListener("DOMContentLoaded", () => {
+  console.log("Contenido del DOM cargado");
+
+  const textarea = document.getElementById("origen");
+  const destino = document.getElementById("destino");
+
+  textarea.value = `<p>Este contenido <strong>está listo</strong><br>para ser editado y pasarlo abajo.</p>`;
+
+  const habilitarControles = () => {
+    const inputs = document.getElementsByTagName("input");
+    for (const input of inputs) {
+      input.disabled = false;
+    }
+    const botones = document.getElementsByTagName("button");
+    for (const btn of botones) {
+      btn.disabled = false;
+    }
+  };
+
+  textarea.addEventListener("input", habilitarControles);
+
+  document
+    .getElementById("btn-reemplazar")
+    .addEventListener("click", () => {
+      destino.innerHTML = textarea.value;
+    });
+
+  const botonesAgregar = document.getElementsByClassName("btn-agregar");
+
+  botonesAgregar[0].addEventListener("click", () => {
+    destino.innerHTML += textarea.value;
+  });
+
+  botonesAgregar[1].addEventListener("click", () => {
+    destino.innerHTML += textarea.value.repeat(5);
+  });
+
+  botonesAgregar[2].addEventListener("click", () => {
+    destino.innerHTML += textarea.value.repeat(10);
+  });
+
+  botonesAgregar[3].addEventListener("click", () => {
+    const n = Number(prompt("¿Cuántas veces querés agregar el contenido?"));
+    if (!isNaN(n) && n > 0) {
+      destino.innerHTML += textarea.value.repeat(n);
+    }
+  });
+
+  document
+    .querySelector(".btn-vaciar")
+    .addEventListener("click", () => {
+      destino.innerHTML = "";
+    });
+
+  document
+    .querySelector(".btn-convertir-a-mayusculas")
+    .addEventListener("click", () => {
+      destino.innerHTML = destino.innerHTML.toUpperCase();
+    });
+
+  document
+    .querySelector("button")
+    .addEventListener("click", () => {
+      destino.innerHTML = destino.innerHTML.toLowerCase();
+    });
+
+  const items = document.getElementsByTagName("li");
+  for (const li of items) {
+    li.innerHTML = "[Ok] " + li.innerHTML;
+  }
+});

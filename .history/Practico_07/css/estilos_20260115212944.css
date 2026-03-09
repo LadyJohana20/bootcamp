@@ -1,0 +1,173 @@
+/* body{
+    background-color: #4C7B9D;
+    
+}
+
+
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+h1{
+    font-family: 'Lobster', cursive;
+    color: white;
+    text-align: center;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/* CONTENEDOR */
+body {
+    font-family: 'Trebuchet MS',
+                 'Lucida Sans Unicode',
+                 'Lucida Grande',
+                 'Lucida Sans',
+                 Arial,
+                 sans-serif;
+    margin: 0px;
+    background: #4C7B9D;
+    padding: 0px;
+    border-radius: 8px;
+    position: relative;
+    background-image: url('../img/ciudad.png'); /* Imagen de fondo */
+    background-repeat: no-repeat; /* No repetir la imagen */
+    background-position: bottom ; /* Centrada y abajo */
+    background-attachment: fixed; /* Fija la imagen con el scroll */
+    background-size:contain;
+}
+
+
+
+h1 {
+    font-family: 'Lobster', cursive;
+    background: #DF3448;
+    color: white;
+    text-align: center;
+    padding: 10px 0 15px 0;
+    letter-spacing: 1px;
+    text-shadow: black 1px 1px 2px;
+    box-sizing: border-box; 
+}
+
+
+h2 {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    margin: 25px 0;
+    color: #DF3347;
+    text-shadow: black 1px 1px 2px;
+}
+
+/* TEXTO */
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #223557;
+    line-height: 1.7;
+    font-size: 12px;
+}
+
+p:first-of-type:first-letter {
+    
+    text-align: center;
+    line-height: 1.7;
+    font-size: 16px;
+   
+}
+
+p:nth-of-type(5)::first-letter {
+    
+    text-align: center;
+    line-height: 1.7;
+    font-size: 16px;
+    
+
+}
+p:first-of-type {
+    font-size: 16px;
+    font-family: 'Trebuchet MS', cursive;
+    &::before {
+        content: "-"; 
+        font-weight: bold;
+        
+    }
+    
+    &::after {
+        content: "-";
+        font-weight: bold;
+        
+    }
+}
+
+
+p:nth-of-type(5) {
+    font-size: 16px;
+    font-family: 'Trebuchet MS', cursive;
+    &::before {
+        content: "-"; 
+        font-weight: bold;
+        
+    }
+    
+    &::after {
+        content: "-";
+        font-weight: bold;
+        
+    }
+}
+
+
+
+p:first-letter {
+    font-size: 1.5em;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    line-height: 1;
+    margin-right: 0.1em;
+}
+
+
+
+/* GATO */
+body::after {
+    content: "";
+    position: absolute;
+    bottom: -90px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    width: 160px;
+    height: 200px;
+    background: url("../img/gato.png") no-repeat center/contain;
+}
+
+/* 📱 MOBILE
+@media (max-width: 480px) {
+    body {
+        margin: 15px;
+        padding: 0 20px 120px;
+    }
+
+    h1 {
+        margin: 0 -20px 20px;
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    body::after {
+        width: 120px;
+        height: 150px;
+        bottom: -70px;
+    }
+}
+

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    
+    margin: 0px;
+    background: #4C7B9D;
+    padding: 0px;
+    border-radius: 8px;
+    position: relative;
+    background-image: url('../img/ciudad.png'); 
+    background-repeat: no-repeat; 
+    background-position: bottom ; 
+    background-attachment: fixed; 
+    background-size:contain;
+}

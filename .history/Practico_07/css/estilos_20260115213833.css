@@ -1,0 +1,273 @@
+/* body{
+    background-color: #4C7B9D;
+    
+}
+
+
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+h1{
+    font-family: 'Lobster', cursive;
+    color: white;
+    text-align: center;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/* CONTENEDOR */
+body {
+    font-family: 'Trebuchet MS',
+                 'Lucida Sans Unicode',
+                 'Lucida Grande',
+                 'Lucida Sans',
+                 Arial,
+                 sans-serif;
+    margin: 0px;
+    background: #4C7B9D;
+    padding: 0px;
+    border-radius: 8px;
+    position: relative;
+    background-image: url('../img/ciudad.png'); /* Imagen de fondo */
+    background-repeat: no-repeat; /* No repetir la imagen */
+    background-position: bottom ; /* Centrada y abajo */
+    background-attachment: fixed; /* Fija la imagen con el scroll */
+    background-size:contain;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    background: #DF3448;
+    color: white;
+    text-align: center;
+    padding: 10px 0 15px 0;
+    letter-spacing: 1px;
+    text-shadow: black 1px 1px 2px;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color: #DF3347;
+    text-shadow: black 1px 1px 2px;
+    background-color: #7FFFD4;
+    margin: 20px 20px 0 20px;
+    padding: 15px 0;
+    border-radius: 8px 8px 0 0;
+    box-sizing: border-box;
+}
+
+h2:first-of-type {
+    background-color: transparent;
+    margin: 25px 0;
+    padding: 0;
+    border-radius: 0;
+}
+
+h2:last-of-type {
+    border-radius: 8px 8px 0 0;
+    margin: 20px 20px 0 20px;
+}
+    background-color: #7FFFD4;
+    margin: 0;
+    padding: 10px;
+}
+
+p:nth-of-type(4) {
+    grid-row: 6;
+    background-color: #7FFFD4;
+    margin: 0;
+    padding: 10px;
+}
+
+p:nth-of-type(5) {
+    grid-row: 8;
+    background-color: #7FFFD4;
+    margin: 0;
+    padding: 10px;
+}
+
+p:nth-of-type(6) {
+    grid-row: 9;
+    background-color: #7FFFD4;
+    margin: 0;
+    padding: 10px;
+}
+
+p:nth-of-type(7) {
+    grid-row: 10;
+    background-color: #7FFFD4;
+    margin: 0;
+    padding: 10px;
+}
+
+p:nth-of-type(8) {
+    grid-row: 11;
+    background-color: #7FFFD4;
+    margin: 0;
+    padding: 10px;
+}
+
+p:nth-of-type(9) {
+    grid-row: 12;
+    background-color: #7FFFD4;
+    margin: 0;
+    padding: 10px;
+}h1 {
+    font-family: 'Lobster', cursive;
+    background: #DF3448;
+    color: white;
+    text-align: center;
+    padding: 10px 0 15px 0;
+    letter-spacing: 1px;
+    text-shadow: black 1px 1px 2px;
+    box-sizing: border-box;
+    grid-row: 1;
+}
+
+
+h2 {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color: #DF3347;
+    text-shadow: black 1px 1px 2px;
+    background-color: #7FFFD4;
+    margin: 0;
+    padding: 15px 0;
+    border-radius: 8px;
+}
+
+h2:first-of-type {
+    grid-row: 2;
+}
+
+h2:last-of-type {
+    grid-row: 7;
+    margin: 0;
+}
+
+/* TEXTO */
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #223557;
+    line-height: 1.7;
+    font-size: 12px;
+    background-color: #7FFFD4;
+    margin: 0;
+    padding: 10px;
+}
+
+p:first-of-type {
+    font-size: 16px;
+    font-family: 'Trebuchet MS', cursive;
+    grid-row: 3;
+}
+
+p:first-of-type::before {
+    content: "-"; 
+    font-weight: bold;
+}
+
+p:first-of-type::after {
+    content: "-";
+    font-weight: bold;
+}
+
+p:nth-of-type(2) {
+    grid-row: 4;
+}
+
+p:nth-of-type(3) {
+    grid-row: 5;
+}
+
+p:nth-of-type(4) {
+    font-size: 16px;
+    font-family: 'Trebuchet MS', cursive;
+    grid-row: 6;
+}
+
+p:nth-of-type(4)::before {
+    content: "-"; 
+    font-weight: bold;
+}
+
+p:nth-of-type(4)::after {
+    content: "-";
+    font-weight: bold;
+}
+
+p:nth-of-type(5) {
+    grid-row: 8;
+}
+
+p:nth-of-type(6) {
+    grid-row: 9;
+}
+
+p:nth-of-type(7) {
+    grid-row: 10;
+}
+
+p:nth-of-type(8) {
+    grid-row: 11;
+}
+
+p:nth-of-type(9) {
+    grid-row: 12;
+}
+
+p:first-letter {
+    font-size: 1.5em;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    line-height: 1;
+    margin-right: 0.1em;
+}
+
+
+
+/* GATO */
+body::after {
+    content: "";
+    grid-row: 13;
+    width: 160px;
+    height: 200px;
+    background: url("../img/gato.png") no-repeat center/contain;
+    margin: 0 auto;
+    background-color: #7FFFD4;
+}
+
+/* 📱 MOBILE
+@media (max-width: 480px) {
+    body {
+        margin: 15px;
+        padding: 0 20px 120px;
+    }
+
+    h1 {
+        margin: 0 -20px 20px;
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    body::after {
+        width: 120px;
+        height: 150px;
+        bottom: -70px;
+    }
+}
+

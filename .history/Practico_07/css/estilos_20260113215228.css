@@ -1,0 +1,148 @@
+/* body{
+    background-color: #4C7B9D;
+    
+}
+
+
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+h1{
+    font-family: 'Lobster', cursive;
+    color: white;
+    text-align: center;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FONDO GENERAL + TEXTO */
+body {
+    font-family: 'Trebuchet MS',
+                 'Lucida Sans Unicode',
+                 'Lucida Grande',
+                 'Lucida Sans',
+                 Arial,
+                 sans-serif;
+    background: linear-gradient(#5f8fb3, #4f7fa2);
+    color: #2c3e50;
+}
+
+/* CONTENEDOR */
+body {
+    
+    margin: 0px;
+    background: #4C7B9D;
+    padding: 0px;
+    border-radius: 8px;
+    position: relative;
+}
+
+/* TITULO */
+h1 {
+    font-family: 'Lobster', cursive;
+    background: #DF3448;
+    color: white;
+    text-align: center;
+    padding: 10px 0 15px 0;
+    
+    letter-spacing: 1px;
+   text-shadow: black 1px 1px 2px;
+   box-sizing: border-box; 
+}
+@media (max-width: 768px) {
+    h1 {
+        padding: 15px 0; /* Ajusta el padding para móvil */
+        font-size: 1.5em; /* Tamaño de fuente más pequeño */
+    }
+}
+
+
+/* SUBTITULOS */
+h2 {
+    text-align: center;
+    background-color:#ACDADC;
+    margin: 25px 0;
+    color: #2c3e50;
+}
+
+/* TEXTO */
+p {
+    text-align: justify;
+    margin-bottom: 15px;
+    line-height: 1.7;
+    font-size: 14px;
+}
+
+/* MIAUUU */
+h2:nth-of-type(2) {
+    color: #e74c3c;
+    font-style: italic;
+}
+
+/* GATO */
+body::after {
+    content: "";
+    position: absolute;
+    bottom: -90px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 160px;
+    height: 200px;
+    background: url("../img/gato.png") no-repeat center/contain;
+}
+
+/* 📱 MOBILE */
+@media (max-width: 480px) {
+    body {
+        margin: 15px;
+        padding: 0 20px 120px;
+    }
+
+    h1 {
+        margin: 0 -20px 20px;
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    body::after {
+        width: 120px;
+        height: 150px;
+        bottom: -70px;
+    }
+}
+
+/* 📱 TABLET */
+@media (min-width: 481px) and (max-width: 768px) {
+    body {
+        margin: 25px;
+        padding: 0 30px 130px;
+    }
+
+    h1 {
+        margin: 0 -30px 22px;
+        font-size: 26px;
+    }
+
+    body::after {
+        width: 140px;
+        height: 180px;
+    }
+}

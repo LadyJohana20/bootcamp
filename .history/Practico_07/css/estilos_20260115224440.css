@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+html {
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CONTENEDOR */
+body {
+    font-family: 'Trebuchet MS',
+                 'Lucida Sans Unicode',
+                 'Lucida Grande',
+                 'Lucida Sans',
+                 Arial,
+                 sans-serif;
+    margin: 0;
+    background: #4C7B9D;
+    padding: 0;
+    padding-bottom: 15rem;
+    border-radius: 0.5rem;
+    position: relative;
+    background-image: url('../img/ciudad.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-size: contain;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    background: #DF3448;
+    color: white;
+    text-align: center;
+    padding: 0.625rem 0 0.9375rem 0;
+    letter-spacing: 0.0625rem;
+    text-shadow: black 1px 1px 2px;
+    box-sizing: border-box;
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
+}
+
+h2 {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    margin: 1.5625rem 0;
+    color: #DF3347;
+    text-shadow: black 1px 1px 2px;
+    font-size: clamp(1.2rem, 4vw, 2rem);
+}
+
+/* TEXTO */
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    color: #223557;
+    line-height: 1.7;
+    font-size: clamp(0.75rem, 2vw, 1rem);
+}
+
+p:first-of-type:first-letter {
+    line-height: 1.7;
+    font-size: 1.5em;
+}
+
+p:nth-of-type(5)::first-letter {
+    line-height: 1.7;
+    font-size: 1.5em;
+}
+
+p:first-of-type {
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Trebuchet MS', cursive;
+}
+
+p:first-of-type::before {
+    content: "-"; 
+    font-weight: bold;
+}
+
+p:first-of-type::after {
+    content: "-";
+    font-weight: bold;
+}
+
+p:nth-of-type(5) {
+    font-size: 1.2em;
+    font-family: 'Trebuchet MS', cursive;
+    text-align: center;
+}
+
+p:nth-of-type(5)::before {
+    content: "-"; 
+    font-weight: bold;
+}
+
+p:nth-of-type(5)::after {
+    content: "-";
+    font-weight: bold;
+}
+
+p:first-letter {
+    font-size: 1.5em;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    line-height: 1;
+    margin-right: 0.1em;
+}
+
+h2:first-of-type {
+    background-color: transparent;
+    padding: 0;
+    margin: 1.5625rem 0;
+}
+
+h2:last-of-type {
+    background-color: #ADDADD;
+    padding: 1rem 1rem 0.5rem 1rem;
+    margin: 1.5rem 5% 0 5%;
+    border-radius: 0.5rem 0.5rem 0 0;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h2, p {
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.3125rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+p:nth-of-type(2),
+p:nth-of-type(3) {
+    background-color: #ADDADD;
+    margin: 0 5%;
+    padding: 0.5rem 1rem;
+}
+
+p:nth-of-type(4) {
+    background-color: #ADDADD;
+    margin: 0 5% 0 5%;
+    padding: 0.5rem 1rem;
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+
+h2 {
+    margin-top: 2.5rem;
+    margin-bottom: 0.625rem;
+}
+
+/* GATO */
+body::after {
+    content: "";
+    display: block;
+    width: clamp(100px, 15vw, 160px);
+    height: clamp(125px, 18.75vw, 200px);
+    background: url("../img/gato.png") no-repeat center/contain;
+    background-color: #ADDADD;
+    margin: 0 5%;
+    padding-bottom: 0.5rem;
+    border-radius: 0 0 0.5rem 0.5rem;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* 📱 RESPONSIVE DESIGN */
+
+/* Tablets - 768px y menores */
+@media (max-width: 48rem) {
+    html {
+        font-size: 14px;
+    }
+    
+    body {
+        border-radius: 0.3rem;
+        background-position: center bottom;
+        padding-bottom: 12rem;
+    }
+    
+    h1 {
+        padding: 0.5rem 0 0.75rem 0;
+        letter-spacing: 0.5px;
+    }
+    
+    h2 {
+        margin: 1.2rem 0;
+    }
+    
+    h2:last-of-type {
+        margin: 1.2rem 5% 0 5%;
+    }
+    
+    p {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    p:nth-of-type(2),
+    p:nth-of-type(3),
+    p:nth-of-type(4) {
+        margin: 0 5%;
+    }
+    
+    body::after {
+        margin: 0 5%;
+    }
+    
+    h2:first-of-type::before {
+        width: 90%;
+        margin: 1.2rem auto 0;
+        min-height: 18rem;
+    }
+}
+
+/* Móviles - 480px y menores */
+@media (max-width: 30rem) {
+    html {
+        font-size: 12px;
+    }
+    
+    h1 {
+        padding: 0.4rem 0 0.6rem 0;
+        letter-spacing: 0.25px;
+    }
+    
+    h2 {
+        margin: 1rem 0;
+    }
+    
+    p {
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+        text-align: justify;
+    }
+    
+    p:nth-of-type(2),
+    p:nth-of-type(3),
+    p:nth-of-type(4) {
+        margin: 0 5%;
+    }
+    
+    h2:last-of-type {
+        margin: 1rem 5% 0 5%;
+    }
+    
+    body {
+        padding-bottom: 10rem;
+    }
+    
+    body::after {
+        margin: 0 5%;
+    }
+    
+    h2:first-of-type::before {
+        width: 92%;
+        margin: 1rem auto 0;
+        min-height: 15rem;
+    }
+}
+
+/* Móviles pequeños - 320px */
+@media (max-width: 20rem) {
+    html {
+        font-size: 10px;
+    }
+    
+    h1 {
+        padding: 0.3rem 0 0.5rem 0;
+    }
+    
+    h2:first-of-type::before {
+        width: 95%;
+        min-height: 14rem;
+    }
+    
+    body {
+        padding-bottom: 9rem;
+    }
+}
+
+/* Pantallas grandes - 1200px y mayores */
+@media (min-width: 75rem) {
+    html {
+        font-size: 18px;
+    }
+    
+    body {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+

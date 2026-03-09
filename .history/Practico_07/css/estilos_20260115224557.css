@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+html {
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CONTENEDOR */
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    background: #4C7B9D;
+    padding: 0 0 15rem 0;
+    border-radius: 0.5rem;
+    position: relative;
+    background-image: url('../img/ciudad.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-size: contain;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    background: #DF3448;
+    color: white;
+    text-align: center;
+    padding: 0.625rem 0 0.9375rem 0;
+    letter-spacing: 0.0625rem;
+    text-shadow: black 1px 1px 2px;
+    box-sizing: border-box;
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color: #DF3347;
+    text-shadow: black 1px 1px 2px;
+    font-size: clamp(1.2rem, 4vw, 2rem);
+    margin: 1.5625rem 0;
+}
+
+h2:first-of-type {
+    margin: 1.5625rem auto;
+    padding: 0;
+    background: none;
+}
+
+h2:last-of-type {
+    margin: 1.5rem 5% 0 5%;
+    padding: 1rem;
+    background-color: #ADDADD;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+/* TEXTO */
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #223557;
+    line-height: 1.7;
+    font-size: clamp(0.75rem, 2vw, 1rem);
+    text-align: left;
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+p:first-of-type {
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Trebuchet MS', cursive;
+}
+
+p:first-of-type::before {
+    content: "- ";
+    font-weight: bold;
+}
+
+p:first-of-type::after {
+    content: " -";
+    font-weight: bold;
+}
+
+p:nth-of-type(2),
+p:nth-of-type(3),
+p:nth-of-type(4) {
+    margin: 0 5%;
+    padding: 0.5rem 1rem;
+    background-color: #ADDADD;
+}
+
+p:nth-of-type(4) {
+    font-size: 1.2em;
+    font-family: 'Trebuchet MS', cursive;
+    text-align: center;
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+
+p:nth-of-type(4)::before {
+    content: "- ";
+    font-weight: bold;
+}
+
+p:nth-of-type(4)::after {
+    content: " -";
+    font-weight: bold;
+}
+
+p:first-letter {
+    font-size: 1.5em;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    margin-right: 0.1em;
+}
+
+/* GATO */
+body::after {
+    content: "";
+    display: block;
+    width: clamp(100px, 15vw, 160px);
+    height: clamp(125px, 18.75vw, 200px);
+    background: url("../img/gato.png") no-repeat center/contain;
+    background-color: #ADDADD;
+    margin: 0 5%;
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+
+/* 📱 RESPONSIVE DESIGN */
+
+/* Tablets - 768px y menores */
+@media (max-width: 48rem) {
+    html {
+        font-size: 14px;
+    }
+    
+    body {
+        padding-bottom: 12rem;
+    }
+    
+    h2:last-of-type {
+        margin: 1.2rem 5% 0 5%;
+    }
+}
+
+/* Móviles - 480px y menores */
+@media (max-width: 30rem) {
+    html {
+        font-size: 12px;
+    }
+    
+    body {
+        padding-bottom: 10rem;
+    }
+    
+    h2:last-of-type {
+        margin: 1rem 5% 0 5%;
+    }
+}
+
+/* Móviles pequeños - 320px */
+@media (max-width: 20rem) {
+    html {
+        font-size: 10px;
+    }
+    
+    body {
+        padding-bottom: 9rem;
+    }
+}
+
+/* Pantallas grandes - 1200px y mayores */
+@media (min-width: 75rem) {
+    html {
+        font-size: 18px;
+    }
+    
+    body {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+
